@@ -388,8 +388,8 @@ a {
 }
 
 .benefits {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .ben-container {
@@ -504,8 +504,6 @@ a {
     }
                 
     .ben-container {
-        padding-top: 120px;
-        padding-bottom: 120px;
         min-width: 1158px;
     }
                 
@@ -816,6 +814,13 @@ a {
 }
 
 .footer-logo.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-align: center;
 }
 
@@ -980,6 +985,10 @@ a {
         display: flex;
         flex-direction: row;
     }
+
+    .email-input {
+        width: 264px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1002,8 +1011,12 @@ a {
     }
 
     .social-media-container {
-        margin-right: 80px;
+        margin-right: auto;
         margin-bottom: 0;
+    }
+
+    .social-media-title {
+        text-align: start;
     }
 
     .main-footer-container {
@@ -1012,6 +1025,25 @@ a {
         flex-wrap: nowrap;
         align-items: baseline;
         gap: 0;
+        justyfy-content: flex-start;
+    }
+
+    .subscribe-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        text-align: left;
+    }`
+
+    .form-subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
     }
 
     .email-input {
